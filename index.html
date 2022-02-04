@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h2>Criar Conta</h2>
+        </div>
+
+        <form class="form" id="form">
+
+            <div class="form-control ">
+                <label>Usuário</label>
+                <input type="text" placeholder="usuário" id="usuario">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <div class="form-control">
+                <label>E-mail</label>
+                <input type="email" placeholder="usuário@email.com" id="email">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <div class="form-control">
+                <label>Senha</label>
+                <input type="password" placeholder="senha - min 6 caracteres" id="senha">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <div class="form-control">
+                <label>Confirmar senha</label>
+                <input type="password" placeholder="repetir senha" id="senha-check">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+
+                <small>Mensagem de Erro</small>
+            </div>
+
+            <button id="btn">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+
+</html>
